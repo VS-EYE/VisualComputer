@@ -1,0 +1,42 @@
+# VisualComputer
+
+# Proposed Method for Diabetic Retinopathy Classification
+
+This repository contains the code for optimizing a deep learning model for diabetic retinopathy classification. The approach utilizes an optimization algorithm to improve the performance of an InceptionV3-based model by adjusting hyperparameters such as data augmentation strategies, optimizer selection, and batch size.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dependencies](#dependencies)
+3. [Data](#data)
+4. [Model Architecture](#model-architecture)
+5. [Optimization Method](#optimization-method)
+6. [Usage](#usage)
+7. [Results](#results)
+8. [License](#license)
+
+## Project Overview
+
+This project aims to classify diabetic retinopathy from retinal images using deep learning models. It utilizes a genetic algorithm-based approach to optimize hyperparameters such as data augmentation, batch size, learning rate, and optimizer choices. The model's architecture is based on the InceptionV3 model, and the dataset contains three classes: 
+
+- Non Diabetic
+- Diabetic TYPE1
+- Diabetic TYPE2
+
+The goal of this optimization is to improve model accuracy by exploring different configurations of hyperparameters, and the solution is validated on test data to evaluate its performance.
+
+## Dependencies
+
+This project requires the following Python packages:
+
+- `matplotlib`
+- `pandas`
+- `numpy`
+- `scipy`
+- `tensorflow` (Keras)
+- `keras`
+- `sklearn`
+
+To install the required dependencies, you can use the following pip command:
+
+```bash
+pip install -r requirements.txt
